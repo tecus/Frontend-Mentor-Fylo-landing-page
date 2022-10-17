@@ -22,7 +22,7 @@ body{
 .nav{
 	display: flex;
 	justify-content: space-between;
-	padding: 25px 24px 0;
+	padding: 20px 24px 0;
 }
 .logo{
   width: 80px;
@@ -170,15 +170,18 @@ form{
 	font-weight: 700;
 }
 .get{
+	display: flex;
+	flex-direction: column;
 	background-color: var(--Desaturated_Blue);
   color: #fff;
   padding: 55px 62px 69px 38px;
 }
 .title-get{
 	text-align: center;
-	font-weight: 500;
+	font-weight: 700;
 	font-size: 17px;
   margin-bottom: 20px;
+	font-family: 'Raleway', sans-serif;
 }
 .description-get{
   text-align: center;
@@ -305,7 +308,9 @@ li{
 		background-position: bottom;
 		align-items: flex-start;
 		padding: 0 80px 0 80px;
-		gap: 38px;
+	}
+	.section-header{
+		width: 645px;
 	}
 	.illustration-1{
 		width: 630px;
@@ -314,7 +319,7 @@ li{
 	.tittle-header{
 		width: 640px;
 		font-size: 2.5em;
-		margin: 160px 80px 15px;
+		margin: 160px 0 15px;
 		text-align: start;
 		font-family: 'Raleway', sans-serif;
     line-height: 62px;
@@ -323,23 +328,135 @@ li{
 		text-align: start;
 		font-size: 1.05em;
 		width: 570px;
-		margin: 0 80px 25px;
+		margin: 0 0 25px;
 		line-height: 23px;
 		letter-spacing: 0.5px;
 	}
 	form{
 	  flex-direction: row;
-		padding-bottom: 250px;
+		padding-bottom: 402px;
 	}
 	.input-text{
 		width: 320px;
-		margin: 0 80px;
+		margin: 0;
 		height: 45px;
 		font-size: 1em;
 	}
 	.input-submit{
 		width: 200px;
     height: 45px;
-		margin: 0 -65px;
+		margin: 0 15px;
 	}
-}
+	.stay{
+	  flex-direction: row-reverse;
+		padding: 0 80px 0 80px;
+	}
+	.illustration-2{
+		width: 545px;
+		height: 410px;
+		padding: 50px 0;
+	}
+	.title-stay{
+		font-size: 2.5em;
+		text-align: start;
+		margin: 62px 0 40px;
+	}
+	.description-stay-1{
+	  margin: 0;
+		width: 520px;
+		font-size: 1em;
+		margin-bottom: 15px;
+	}
+	.description-stay-2{
+		margin: 0;
+		width: 520px;
+		font-size: 1em;
+		line-height: 23px;
+		margin-bottom: 20px;
+	}
+	.title-arrow{
+		text-align: start;
+		font-size: 1em;
+	}
+	.icon-arrow{
+		margin: -4px 4px;
+	}
+	.borde{
+		width: 167px;
+    margin: -32px 0 45px;
+	}
+	.block{
+		width: 355px;
+		height: 215px;
+    margin: 0 0 106px;
+		padding: 22px 35px 25px;
+	}
+	.quotes{
+		width: 14px;
+		height: 15px;
+	}
+	.description-block{
+    font-size: 0.79em;
+		width: 280px;
+		line-height: 25px;
+		letter-spacing: 0.5px;
+	}
+	.avatar-testimonial{
+		width: 33px;
+		height: 33px;
+	}
+	.get{
+		flex-direction: row;
+		align-items: flex-start;
+		padding: 107px 80px 0 80px;
+	}
+	.title-get{
+    width: 510px;
+		font-size: 2em;
+		text-align: start;
+		margin-bottom: 20px;
+	}
+	.description-get{
+		text-align: start;
+		width: 520px;
+		font-size: 1em;
+		letter-spacing: 0.5px;
+		line-height: 24px;
+	}
+	.input-form{
+		flex-direction: column;
+		margin: 0 212px;
+		padding-bottom: 0;
+		gap: 10px;
+	}
+	.input-text-get{
+    width: 480px;
+		height: 49px;
+		padding-left: 20px;
+
+	}
+	.input-submit-get{
+		width: 200px;
+		height: 48px;
+		font-size: 0.85em;
+		margin-bottom: 98px;
+	}
+	footer{
+		flex-direction: row;
+		padding: 108px 80px 65px 80px;
+		gap: 215px;
+  
+	}
+	.logowhite{
+		margin-bottom: 20px;
+	}
+	.lista-1{
+		margin: 67px 0 0;
+		gap: 210px;
+	}
+	.lista-2{
+		margin: 67px 0 0;
+	}
+  .social{
+    margin: 70px -30px;
+	}
